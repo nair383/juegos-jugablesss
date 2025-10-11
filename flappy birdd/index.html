@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Flappy Bird JS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="backToLobbyBtn">🏠 Volver al Lobby</button>    
+  <button id="modoInfiernoBtn">Modo Infierno</button>
+  <div id="game">
+    <div id="bird">🐥</div>
+    <div class="pipe top" id="pipe-top"></div>
+    <div class="pipe bottom" id="pipe-bottom"></div>
+    <div id="score">0</div>
+  </div>
+
+  <div id="gameOverScreen" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background: rgba(0,0,0,0.8); color:white; font-size:24px; font-family: Arial, sans-serif; justify-content:center; align-items:center; flex-direction: column; z-index: 100;">
+  <div id="finalScore"></div>
+  <button id="restartBtn" style="margin-top:20px; padding:10px 20px; font-size:18px; cursor:pointer;">Volver a Empezar</button>
+</div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

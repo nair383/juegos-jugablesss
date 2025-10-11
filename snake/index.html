@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button id="backToLobbyBtn">🏠 Volver al Lobby</button>
+  <!-- Pantalla de inicio -->
+  <div id="startScreen" class="overlay">
+    <h1>Snake 🐍</h1>
+    <button id="startBtn">Jugar</button>
+  </div>
+
+  <!-- Contenedor juego y puntaje (oculto al inicio) -->
+  <div id="gameContainer" style="display:none;">
+    <div id="game"></div>
+    <div id="score">Puntaje: 0</div>
+  </div>
+
+  <!-- Pantalla game over -->
+  <div id="gameOverScreen" class="overlay" style="display:none;">
+    <h1>Game Over</h1>
+    <p id="finalScore"></p>
+    <button id="restartBtn">Volver a jugar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
