@@ -131,5 +131,5 @@ startBtn.addEventListener("click", startGame);
 restartBtn.addEventListener("click", startGame);
 
 document.getElementById("backToLobbyBtn").addEventListener("click", () => {
-  window.location.href = "../../index.html"; 
+ window.location.href = "/juegos-jugables/index.html";
 });
