@@ -50,12 +50,10 @@ body {
   position: absolute;
   top: 200px;
   left: 50px;
-  font-size: 40px;  /* tamaño del emoji */
-  user-select: none; /* para que no se seleccione al hacer click */
+  font-size: 40px;  
+  user-select: none; 
   transform-origin: center;
   cursor: pointer;
-  /* Si quieres la animación de batir alas coméntala o mantenla aquí */
-  /* animation: batirAlas 0.5s infinite ease-in-out; */
 }
 
 @keyframes batirAlas {
